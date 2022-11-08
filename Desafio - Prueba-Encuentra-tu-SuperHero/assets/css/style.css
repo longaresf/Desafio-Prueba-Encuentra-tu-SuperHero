@@ -1,0 +1,61 @@
+
+/* ----------------------------------------- */
+.footer{
+    background:
+        radial-gradient(black 15%, transparent 16%) 0 0,
+        radial-gradient(black 15%, transparent 16%) 8px 8px,
+        radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
+        radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
+    background-color:#111;
+    background-size:16px 16px;
+
+    color:white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+
+    margin-top:100px;
+}
+.footer-0{
+    background:
+        radial-gradient(black 15%, transparent 16%) 0 0,
+        radial-gradient(black 15%, transparent 16%) 8px 8px,
+        radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
+        radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
+    background-color:#111;
+    background-size:16px 16px;
+
+    color:white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+
+    margin-top:0px;
+}
+Footer a{
+    color:white;
+}
+Footer a:hover{
+    
+    color:yellow;
+
+    -webkit-filter: invert(45%) sepia(13%) saturate(3207%) hue-rotate(130deg) brightness(95%);
+    filter: invert(45%) sepia(13%) saturate(3207%) hue-rotate(130deg) brightness(95%);
+}
+.cianware{
+    color:white;
+    margin-bottom:100px;
+}
+.cianware:hover{
+    color:red;
+}
+
+.icono{
+    width:50px;
+    margin:5px;
+    margin-top: 40px;
+}
